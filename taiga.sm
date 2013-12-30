@@ -646,9 +646,11 @@
 <<if $$title eq '23'>> <<display '26'>> <<endif>>
 <<if $$title eq '39'>> <<display '42'>> <<endif>>
 <<if $$title eq '57'>> <<clrscr>> <<display '60'>> <<endif>>
-<<if $$title eq '74'>> <<clrscr>> <<display '77'>> <<endif>>
+<<if $$title eq '66'>> <<clrscr>> <<display '69'>> <<endif>>
+<<if $$title eq '70'>> <<clrscr>> <<display '73'>> <<endif>>
 <<if $$title eq '78'>> <<display '81'>> <<endif>>
 <<if $$title eq '91'>> <<display '94'>> <<endif>>
+<<if $$title eq '92'>> <<display '95'>> <<endif>>
 
 
 :: Use_stvol[::]8-680-0
@@ -657,15 +659,16 @@
 <<if $$title eq '23'>> <<clrscr>> <<display '28'>> <<endif>>
 <<if $$title eq '39'>> <<clrscr>> <<display '44'>> <<endif>>
 <<if $$title eq '57'>> <<display '62'>> <<endif>>
-<<if $$title eq '61'>> <<clrscr>> <<display '66'>> <<endif>>
-<<if $$title eq '65'>> <<clrscr>> <<display '70'>> <<endif>>
+<<if $$title eq '61'>> <<clrscr>> <<goto '66'>> <<endif>>
 <<if $$title eq '66'>> <<clrscr>> <<display '71'>> <<endif>>
+<<if $$title eq '70'>> <<display '75'>> <<endif>>
+<<if $$title eq '65'>> <<clrscr>> <<goto '70'>> <<endif>>
 <<if $$title eq '74'>> <<display '79'>> <<endif>>
 <<if $$title eq '78'>> <<display '83'>> <<endif>>
-<<if $$title eq '87'>> <<clrscr>> <<display '92'>> <<endif>>
 <<if $$title eq '91'>> <<display '96'>> <<endif>>
 <<if $$title eq '92'>> <<clrscr>> <<display '97'>> <<endif>>
-<<if $$title eq '102'>> <<clrscr>> <<display '98'>> <<endif>>
+<<if $$title eq '87'>> <<clrscr>> <<goto '92'>> <<endif>>
+<<if $$title eq '102'>> <<clrscr>> <<goto '98'>> <<endif>>
 
 
 :: EndGame[::]8-816-0
