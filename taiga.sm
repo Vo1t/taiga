@@ -648,9 +648,11 @@
 <<if $$title eq '57'>> <<clrscr>> <<display '60'>> <<endif>>
 <<if $$title eq '66'>> <<clrscr>> <<display '69'>> <<endif>>
 <<if $$title eq '70'>> <<clrscr>> <<display '73'>> <<endif>>
+<<if $$title eq '74'>> <<clrscr>> <<display '77'>> <<endif>>
 <<if $$title eq '78'>> <<display '81'>> <<endif>>
 <<if $$title eq '91'>> <<display '94'>> <<endif>>
-<<if $$title eq '92'>> <<display '95'>> <<endif>>
+<<if $$title eq '92'>> <<clrscr>> <<display '95'>> <<endif>>
+<<if $$title eq '98'>> <<clrscr>> <<display '101'>> <<endif>>
 
 
 :: Use_stvol[::]8-680-0
@@ -668,6 +670,7 @@
 <<if $$title eq '91'>> <<display '96'>> <<endif>>
 <<if $$title eq '92'>> <<clrscr>> <<display '97'>> <<endif>>
 <<if $$title eq '87'>> <<clrscr>> <<goto '92'>> <<endif>>
+<<if $$title eq '98'>> <<clrscr>> <<display '103'>> <<endif>>
 <<if $$title eq '102'>> <<clrscr>> <<goto '98'>> <<endif>>
 
 
